@@ -8,7 +8,6 @@ function calculate() {
         if (number == "" || number == 0) {
             alert('Please add your age');
         }
-
         let date = new Date().getFullYear();
         let result = date - number;
             document.getElementById("year").style.display = "inline-block";
